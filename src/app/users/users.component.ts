@@ -6,9 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./users.component.css'],
 })
 export class UsersComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
   users = [
     {
       id: 1,
@@ -23,4 +20,8 @@ export class UsersComponent implements OnInit {
       name: 'Chris',
     },
   ];
+
+  constructor() {}
+
+  ngOnInit() {}
 }
